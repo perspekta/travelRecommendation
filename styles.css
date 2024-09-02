@@ -1,0 +1,372 @@
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background for better visibility */
+    background-image: url("bg.jpg"); /* Set background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Space between header elements */
+    align-items: center; /* Center align items vertically */
+    padding: 20px;
+    background-color: #333; /* Dark background for the header */
+    color: white; /* White text color */
+}
+
+h3 {
+    margin: 0; /* Remove default margin */
+}
+
+/* Navigation styles */
+nav {
+    display: flex; /* Use flexbox for navigation items */
+}
+
+nav a {
+    margin: 0 15px; /* Space between links */
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+/* Search box styles */
+.search {
+    display: flex; /* Use flexbox for search elements */
+    align-items: center; /* Center align items vertically */
+}
+
+.search input {
+    padding: 10px; /* Padding inside the search input */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 5px; /* Space between input and buttons */
+}
+
+.search button {
+    padding: 10px 15px; /* Padding for buttons */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #ffcc00; /* Button background color */
+    color: #333; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-left: 5px; /* Space between buttons */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.search button:hover {
+    background-color: #e6b800; /* Darker yellow on hover */
+}
+/* Base Styles */
+
+main,
+.main-home {
+    padding: 50px 20px; /* Padding for the main section */
+    text-align: center; /* Center align text */
+    color: white; /* Text color for better contrast on dark background */
+}
+
+.jumbotron {
+    background-color: rgba(
+        0,
+        0,
+        0,
+        0.5
+    ); /* Semi-transparent black background */
+    padding: 30px; /* Padding for the jumbotron */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 30px; /* Space below the jumbotron */
+}
+
+.jumbotron h1 {
+    font-size: 2.5em; /* Large font size for the main heading */
+    margin: 0; /* Remove default margin */
+}
+
+.description {
+    font-size: 1.2em; /* Slightly larger text for description */
+    line-height: 1.5; /* Increase line height for readability */
+}
+
+/* Card styles */
+#results {
+    display: flex; /* Use flexbox for card layout */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center align cards */
+}
+
+.card-container {
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.9
+    ); /* Slightly transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    margin: 15px; /* Space around cards */
+    padding: 20px; /* Padding inside cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+    width: 300px; /* Fixed width for cards */
+    text-align: left; /* Left align text inside cards */
+    color: black;
+}
+
+.card-title {
+    font-size: 1.5em; /* Font size for card titles */
+    margin: 0; /* Remove default margin */
+}
+
+.card-image img {
+    width: 100%; /* Make images responsive */
+    border-radius: 5px; /* Slightly rounded corners for images */
+}
+
+.card-detail {
+    font-size: 1em; /* Normal size for card details */
+}
+/* Base Styles */
+
+.jumbotron-about {
+    background-color: rgba(
+        0,
+        0,
+        0,
+        0.6
+    ); /* Semi-transparent black background */
+    color: white; /* Text color for better contrast */
+    padding: 30px; /* Padding for the jumbotron */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center align text */
+    margin-bottom: 30px; /* Space below the jumbotron */
+}
+
+.jumbotron-about h1 {
+    font-size: 2.5em; /* Large font size for the heading */
+    margin: 0; /* Remove default margin */
+}
+
+.jumbotron-about p {
+    font-size: 1.2em; /* Slightly larger text for description */
+    line-height: 1.5; /* Increase line height for readability */
+}
+
+/* Our Team Styles */
+.our-team-container {
+    margin-top: 40px; /* Space above the team section */
+    color: cadetblue;
+}
+
+.our-team-title {
+    font-size: 2em; /* Font size for the team title */
+    margin: 0; /* Remove default margin */
+}
+
+.our-team-list {
+    display: flex; /* Use flexbox for team layout */
+    flex-wrap: wrap; /* Allow team items to wrap */
+    justify-content: center; /* Center align team items */
+}
+
+.our-team-item {
+    background-color: white; /* White background for team items */
+    border-radius: 10px; /* Rounded corners */
+    margin: 15px; /* Space around team items */
+    padding: 20px; /* Padding inside team items */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+    width: 300px; /* Fixed width for team items */
+    text-align: left; /* Left align text inside team items */
+}
+
+.our-team-item h2 {
+    font-size: 1.5em; /* Font size for team member names */
+    margin: 0; /* Remove default margin */
+}
+
+.our-team-item p {
+    font-size: 1em; /* Normal size for team member descriptions */
+}
+/* Base Styles for Contact Section */
+.contact-section {
+    max-width: 600px; /* Set a maximum width for the contact section */
+    margin: 50px auto; /* Center the section and add vertical spacing */
+    padding: 20px; /* Padding inside the contact section */
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.9
+    ); /* Slightly transparent white background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+    text-align: left; /* Left align text */
+    color: cadetblue;
+}
+
+.contact-section h1 {
+    font-size: 2em; /* Font size for the heading */
+    text-align: center; /* Center align the heading */
+}
+
+.contact-section label {
+    font-weight: bold; /* Bold labels for better visibility */
+    margin-top: 10px; /* Space above labels */
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%; /* Make inputs and textareas full width */
+    padding: 10px; /* Padding inside the input fields */
+    margin: 5px 0; /* Margin for spacing between fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+    box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+.contact-section button {
+    width: 100%; /* Make the button full width */
+    padding: 10px; /* Padding inside the button */
+    background-color: #007bff; /* Background color for the button */
+    color: white; /* Text color for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1em; /* Font size for the button */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.contact-section button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+/* Responsive Styles for 768px and below */
+@media (max-width: 768px) {
+    .contact-section {
+        margin: 20px; /* Reduce margin on smaller screens */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .contact-section h1 {
+        font-size: 1.8em; /* Smaller font size for heading */
+    }
+
+    .jumbotron-about {
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .jumbotron-about h1 {
+        font-size: 2em; /* Smaller font size for heading */
+    }
+
+    .jumbotron-about p {
+        font-size: 1em; /* Smaller size for description */
+    }
+
+    .our-team-item {
+        width: 90%; /* Full width for team items on smaller screens */
+    }
+
+    .jumbotron {
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .jumbotron h1 {
+        font-size: 2em; /* Smaller font size for heading */
+    }
+
+    .description {
+        font-size: 1em; /* Smaller size for description */
+    }
+
+    .card-container {
+        width: 90%; /* Full width for cards on smaller screens */
+    }
+
+    header {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    nav {
+        margin: 0 10px; /* Space around navigation */
+    }
+
+    nav a {
+        margin: 5px; /* Space between links */
+        border: 1px solid yellow;
+        padding: 2px 4px;
+        border-radius: 5px;
+    }
+
+    .search {
+        width: 100%; /* Make search box full width */
+        justify-content: space-between; /* Space between search input and buttons */
+    }
+
+    .search input {
+        width: 50%; /* Make input take more space */
+    }
+
+    .search button {
+        width: 20%; /* Set button width */
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+/* Responsive Styles for 480px and below */
+@media (max-width: 480px) {
+    .contact-section h1 {
+        font-size: 1.5em; /* Further reduce heading size */
+    }
+
+    .contact-section input,
+    .contact-section textarea {
+        font-size: 0.9em; /* Smaller font size for inputs */
+    }
+
+    .contact-section button {
+        font-size: 0.9em; /* Smaller font size for button */
+    }
+
+    .jumbotron-about h1 {
+        font-size: 1.5em; /* Further reduce heading size */
+    }
+
+    .jumbotron-about p {
+        font-size: 0.9em; /* Reduce description size */
+    }
+
+    .our-team-item {
+        margin: 10px; /* Less margin for team items on very small screens */
+    }
+
+    .jumbotron h1 {
+        font-size: 1.5em; /* Further reduce heading size */
+    }
+
+    .description {
+        font-size: 0.9em; /* Reduce description size */
+    }
+
+    .card-container {
+        margin: 10px; /* Less margin for cards on very small screens */
+    }
+
+    header {
+        padding: 10px; /* Reduce padding on very small screens */
+    }
+
+    .search input,
+    .search button {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+}
